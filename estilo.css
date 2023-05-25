@@ -1,0 +1,46 @@
+body,
+html {
+    height: 100%;
+}
+
+.botao {
+     display: flex;
+    height: 40px;
+    border: none;
+    justify-content: space-between;
+}
+.container {
+    width: 500px;
+    height: 250px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black; 
+    justify-content: center;
+    position: relative;
+}
+
+.excluir, .voltar {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p {
+
+ text-align: justify;
+}
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+svg{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border-radius: 20px ;
+    background-color: #ffffff;
+    padding: 5px;
+    width: 10px;
+    border: black solid 1px;
+}
